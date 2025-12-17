@@ -10,7 +10,6 @@ public class Main {
 
         Account account = new Account();
 
-        // Acceptance test scenario from requirements
         account.deposit(1000, LocalDate.of(2012, 1, 10));
         account.deposit(2000, LocalDate.of(2012, 1, 13));
         account.withdraw(500, LocalDate.of(2012, 1, 14));
